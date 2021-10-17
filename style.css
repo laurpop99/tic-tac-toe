@@ -51,3 +51,42 @@ h1 {
 .header{
     text-align: center;
 }
+
+.start{
+    display: block;
+    width: 125px;
+    font-size: 18px;
+    color: #F7F7F7;
+    background-color: rgb(121, 162, 185);
+    border: 2px solid rgb(102, 121, 146);
+    border-radius: 8px;
+    
+}
+
+.header-btn {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.start:hover {
+    background-color: rgb(74, 92, 156);
+    scale: 1.05;
+}
+
+.start:active {
+    background-color: rgb(34, 34, 138);
+    scale: 0.95;
+}
+
+
+ .checkbox-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ span {
+     font-size: 20px;
+     
+ }
