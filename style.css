@@ -5,6 +5,9 @@ body {
     background-color: mistyrose;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -91,4 +94,29 @@ h1{
  span {
      font-size: 20px;
      
+ }
+
+ footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 350px;
+     margin-top: auto;
+     align-self: center;
+     gap: 8px;
+ }
+
+footer p {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+
+}
+ footer img{
+     width: 20px;
+     height: 20px;
+     margin-top: 5px;
+ }
+
+ footer img:hover{
+     scale: 1.1;
  }
