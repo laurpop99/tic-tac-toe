@@ -7,9 +7,9 @@ body {
     padding: 0;
 }
 
-h1 {
+h1{
     font-size: 48px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -57,8 +57,8 @@ h1 {
     width: 125px;
     font-size: 18px;
     color: #F7F7F7;
-    background-color: rgb(121, 162, 185);
-    border: 2px solid rgb(102, 121, 146);
+    background-color: rgb(194, 173, 170);
+    border: 2px solid rgb(99, 69, 69);
     border-radius: 8px;
     
 }
@@ -67,15 +67,17 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 16px;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .start:hover {
-    background-color: rgb(74, 92, 156);
+    background-color: rgb(174, 153, 150);
     scale: 1.05;
 }
 
 .start:active {
-    background-color: rgb(34, 34, 138);
+    background-color: rgb(124, 103, 100);
     scale: 0.95;
 }
 
